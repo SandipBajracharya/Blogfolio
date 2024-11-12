@@ -1,4 +1,4 @@
-## Main stack
+## Tools used
 - Next.js (React framework)
 - Node.js (Backend)
 - PostgreSQL (Database)
