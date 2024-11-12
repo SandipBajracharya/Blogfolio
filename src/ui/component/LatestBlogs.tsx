@@ -16,7 +16,7 @@ function LatestBlogs({ title = 'Check out my Latest Blogs', className = '' }) {
               alt="blog-1"
               width={400}
               height={100}
-              layout="responsive"
+              // layout="responsive"
               className="w-full h-auto max-w-sm md:max-w-md lg:max-w-lg"
             />
           </span>
@@ -46,7 +46,7 @@ function LatestBlogs({ title = 'Check out my Latest Blogs', className = '' }) {
               alt="blog-1"
               width={400}
               height={100}
-              layout="responsive"
+              // layout="responsive"
               className="w-full h-auto max-w-sm md:max-w-md lg:max-w-lg"
             />
           </span>
@@ -76,7 +76,7 @@ function LatestBlogs({ title = 'Check out my Latest Blogs', className = '' }) {
               alt="blog-1"
               width={400}
               height={100}
-              layout="responsive"
+              // layout="responsive"
               className="w-full h-auto max-w-sm md:max-w-md lg:max-w-lg"
             />
           </span>

@@ -26,9 +26,16 @@ body {
   }
 } */
 
-@font-face {
+/* @font-face {
   font-family: 'Lobster Two';
   font-style: normal;
   font-weight: 400;
   src: url('/fonts/LobsterTwo-Regular.ttf') format('truetype');
+} */
+
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/IndieFlower-Regular.ttf') format('truetype');
 }

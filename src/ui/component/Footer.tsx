@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 function Footer() {
@@ -29,19 +29,19 @@ function Footer() {
                   onClick={() => window.open('https://www.github.com/sandipbajracharya')}
                 />
               </li>
-              <li className="mx-4 cursor-pointer transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+              <li className="ms-4 cursor-pointer transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
                 <a href="mailto:sndp106.sb@gmail.com">
                   <FontAwesomeIcon title="Email" icon={faEnvelope} className="text-[#cf2d48]" />
                 </a>
               </li>
-              <li className="ms-4 cursor-pointer transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
+              {/* <li className="ms-4 cursor-pointer transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
                 <FontAwesomeIcon
                   title="Instagram"
                   icon={faInstagram}
                   className="text-[#a62b9f]"
                   onClick={() => window.open('https://www.instagram.com/sandip_bazracharya/')}
                 />
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="text-fade mt-2 lg:mt-0 dark:text-grey">© 2024 Sandeep Bajracharya</div>

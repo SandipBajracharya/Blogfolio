@@ -1,8 +1,14 @@
 import React, { useRef } from 'react';
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import useOutsideClick from '@/ui/hooks/useOutsideClick';
 
-export default function SideMenu({ handleClose }) {
+interface MyComponentProps {
+  handleClose: () => void;
+}
+
+export default function SideMenu({ handleClose }: MyComponentProps) {
   const dialogRef = useRef(null);
 
   // Close the dialog when clicking outside
@@ -33,6 +39,12 @@ export default function SideMenu({ handleClose }) {
             <Link href="/aboutMe" className="hover:text-dark-grey" onClick={() => handleClose()}>
               About Me
             </Link>
+          </li>
+          <li className="mt-3 sm:hidden">
+            <FontAwesomeIcon
+              icon={faMagnifyingGlass}
+              className="hover:text-dark-grey hover:cursor-pointer"
+            />
           </li>
         </ul>
       </div>

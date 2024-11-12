@@ -1,9 +1,8 @@
 import * as React from 'react';
 import type { Metadata } from 'next';
-import Navbar from '@/ui/component/Navbar';
-import Footer from '@/ui/component/Footer';
 
 import { ThemeProvider as NextThemesProvider } from 'next-themes';
+import SimpleNavbar from '../component/SimpleNavbar';
 
 export const metadata: Metadata = {
   title: 'Blogfolio - Sandeep Bajracharya',
@@ -19,9 +18,8 @@ export default function RootLayout({
   return (
     <NextThemesProvider attribute="class" defaultTheme="dark">
       <div className="dark:text-white text-dark-grey dark:bg-black">
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
+        <SimpleNavbar />
+        <main className="bg-fade-grey dark:bg-transparent">{children}</main>
       </div>
     </NextThemesProvider>
   );

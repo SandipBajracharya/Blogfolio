@@ -23,7 +23,7 @@ export default function Projects() {
             alt="blog-1"
             width={400}
             height={100}
-            layout="responsive"
+            // layout="responsive"
             className="w-full h-auto max-w-sm md:max-w-md lg:max-w-lg"
           />
           <div className="mt-4">
@@ -45,7 +45,7 @@ export default function Projects() {
             alt="blog-1"
             width={400}
             height={100}
-            layout="responsive"
+            // layout="responsive"
             className="w-full h-auto max-w-sm md:max-w-md lg:max-w-lg"
           />
           <div className="mt-4">
@@ -67,7 +67,7 @@ export default function Projects() {
             alt="blog-1"
             width={400}
             height={100}
-            layout="responsive"
+            // layout="responsive"
             className="w-full h-auto max-w-sm md:max-w-md lg:max-w-lg"
           />
           <div className="mt-4">
@@ -89,7 +89,7 @@ export default function Projects() {
             alt="blog-1"
             width={400}
             height={100}
-            layout="responsive"
+            // layout="responsive"
             className="w-full h-auto max-w-sm md:max-w-md lg:max-w-lg"
           />
           <div className="mt-4">
